@@ -5,6 +5,7 @@ class WebsitesController < ApplicationController
   # GET /websites.json
   def index
     @websites = Website.all
+    flash[:notice] = "afad"
   end
 
   # GET /websites/1

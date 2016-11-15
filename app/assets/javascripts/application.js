@@ -11,12 +11,11 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery_ujs
+//= require bootstrap
+//= require fastclick
+//= require nprogress
+//= require jquery.mCustomScrollbar
+//= require custom
+
 //= require turbolinks
 //= require_tree .
-
-// =================================
-
-// front-end env
-//= require tether
-//= require bootstrap-sprockets
